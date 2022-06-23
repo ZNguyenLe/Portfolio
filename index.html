@@ -10,15 +10,12 @@
     <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
     <link rel="stylesheet" href="/layouts/marketing/styles.css"> -->
     <link rel="stylesheet" href="https://unpkg.com/purecss@2.1.0/build/grids-responsive-min.css" />
-
     <link rel="stylesheet" href="css/side.css">
     <link rel="stylesheet" href="css/style.css">
-    <style>
-
-    </style>
+    <link rel="stylesheet" href="css/modal.css">
+    <script src="js/modal.js"></script>
 </head>
 <body>
-
     <div id="layout">
         <!-- Menu toggle -->
         <a href="#menu" id="menuLink" class="menu-link">
@@ -29,22 +26,21 @@
         <div id="menu">
             <div class="pure-menu">
                 <div class="banner-logo">
-                    <a class="logo" style="width: 70%;">
-                        <img src="N.png" width="100.000000pt" height="110.000000pt" viewBox="0 0 53.000000 72.000000" preserveAspectRatio="xMidYMid meet">
+                    <a class="logo" style="width: 70%;" href="index.html">
+                        <img src="imgs/N.png" width="100.000000pt" height="110.000000pt" viewBox="0 0 53.000000 72.000000" preserveAspectRatio="xMidYMid meet">
                         <span id="Name">Nguyen</span>
                     </a>
                     <span>Web Developer</span>
                     <!-- <a class="pure-menu-heading" href="#company">Nguyen</a> -->
                 </div>
                 <ul class="pure-menu-list">
-                    <li class="pure-menu-item"><a href="#home" class="pure-menu-link">Home</a></li>
-                    <li class="pure-menu-item"><a href="#about" class="pure-menu-link">About</a></li>
-    
-                    <li class="pure-menu-item menu-item-divided pure-menu-selected">
-                        <a href="#" class="pure-menu-link">Projects</a>
+                    <li class="pure-menu-item"><a href="home.html" class="pure-menu-link">Home</a></li>
+                    <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
+                    <li class="pure-menu-item">
+                        <a href="projects.html" class="pure-menu-link">Projects</a>
                     </li>
     
-                    <li class="pure-menu-item"><a href="#contact" class="pure-menu-link">Contact</a></li>
+                    <li class="pure-menu-item"><a href="contact.html" class="pure-menu-link">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -55,53 +51,9 @@
                 <h2></h2>
             </div>
     
-            <div class="content">
-                <h2 class="content-subhead">How to use this layout</h2>
-                <p>
-                    To use this layout, you can just copy paste the HTML, along with the CSS in <a href="/layouts/side-menu/styles.css" alt="Side Menu CSS">side-menu.css</a>, and the JavaScript in <a href="/js/ui.js">ui.js</a>. The JS file uses vanilla JavaScript to simply toggle an <code>active</code> class that makes the menu responsive.
-                </p>
-    
-                <h2 class="content-subhead">Now Let's Speak Some Latin</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-    
-                <div class="pure-g">
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2875/9069037713_1752f5daeb.jpg" alt="Peyto Lake">
-                    </div>
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive" src="http://farm3.staticflickr.com/2813/9069585985_80da8db54f.jpg" alt="Train">
-                    </div>
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive" src="http://farm6.staticflickr.com/5456/9121446012_c1640e42d0.jpg" alt="T-Shirt Store">
-                    </div>
-                    <div class="pure-u-1-4">
-                        <img class="pure-img-responsive" src="http://farm8.staticflickr.com/7357/9086701425_fda3024927.jpg" alt="Mountain">
-                    </div>
-                </div>
-    
-                <h2 class="content-subhead">Try Resizing your Browser</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
-            </div>
         </div>
-    </div>
-    
+    </div>  
     <script src="js/ui.js"></script>
-    
-<!-- <div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal pure-menu-fixed">
-        <a class="pure-menu-heading" href="">Your Site</a>
-
-         <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="#" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Tour</a></li>
-            <li class="pure-menu-item"><a href="#" class="pure-menu-link">Sign Up</a></li>
-        </ul>
-    </div>
-</div> -->
 
 <div class="splash-container">
     <canvas id="canvas"></canvas>
@@ -113,9 +65,6 @@
         <p class="splash-subhead">
             I am a Web Developer with experience developing reactive / attractive websites. Strong understanding in many technologies as well as IT infrastructures.
         </p>
-        <!-- <p>
-            <a href="http://purecss.io" class="pure-button pure-button-primary">Get Started</a>
-        </p> -->
     </div>
 </div>
 
@@ -128,70 +77,88 @@
 
                 <h3 class="content-subhead">
                     <i class="fa fa-rocket"></i>
+                    <img src="imgs/EnWin/EnWinBuilding.jpg" width="100%">
+
                     Sponsored EnWin Utilities
+                    
                 </h3>
                 <p>
                     Created a Technical Project with a group in the Networking Technology Program at St. Clair College. To 
                     improve their network infrastructures
                 </p>
-                <a href="#model">Click for more info</a>
-                    <div id="model" class="modalDialog">
-                        <div><a href="#close" title="Close" class="close">X</a>   
-                        <h2>Sponsoring EnWin Utilities Project</h2>
-                        <p>Created a Technical Project with a group in the Networking Technology Program at St. Clair College</p>
-                        <img src="imgs/EnWin/EnWinBuilding.jpg" width="100%">
-                        <h2>Video of the Networking Program at St.Clair College</h2>
-                        <p>This video explains how this process of the project was made and being applied to the real world completing this project inside the program.</p>
-                        <video width="100%" controls>
-                            <source src="imgs/EnWin/Computer Systems Technology - Networking.mp4" type="video/mp4">
-                        </video>
-                        <h2>5 Phases of the Network Design Process</h2>
-                        <p>The Network Design Process was required to include the 5 stages in the Network Design Process Networking Process.</p>
-                        <img src="imgs/EnWin/5StagesOfNetworkDesignProcessChart.png" width="100%">
-                        <h2>Organizational Chart</h2>
-                        <p>This is the Organizational Chart Mapping out the Positions of the Employers and their "ranking" Sample.</p>
-                        <img src="imgs/EnWin/Organizational Chart.png" width="100%">
-                        <h2>Building Map Layout</h2>
-                        <p>This Represents the inside of the EnWin Utilities Building Map Layout Structure.</p>
-                        <img src="imgs/EnWin/BuildingMapLayout.png" width="100%">
-                        <h2>Diagnostics & Statistics</h2>
-                        <p>Network Diagnostics when analyzing the traffic of the network servers.</p>
-                        <img src="imgs/EnWin/Diagnostics.png" width="100%">
-                    </div> 
+                <div>
+                <label class="btn link-1" for="modal-1">Click here for more Information</label>
+            </div>
+            <input class="modal-state" id="modal-1" type="checkbox"/>
+            <div class="modal" >
+                <label class="modal__bg" for="modal-1"></label>
+                <div class="modal__inner" style="--m-shadow: 0 0 10rem 0">
+                  <label class="modal__close" for="modal-1"></label>
+                  <h2>Sponsoring EnWin Utilities Project</h2>
+                  <p>Created a Technical Project with a group in the Networking Technology Program at St. Clair College</p>
+                  <img src="imgs/EnWin/EnWinBuilding.jpg" width="100%">
+                  <h2>Video of the Networking Program at St.Clair College</h2>
+                  <p>This video explains how this process of the project was made and being applied to the real world completing this project inside the program.</p>
+                  <video width="100%" controls>
+                      <source src="imgs/EnWin/Computer Systems Technology - Networking.mp4" type="video/mp4">
+                  </video>
+                  <h2>5 Phases of the Network Design Process</h2>
+                  <p>The Network Design Process was required to include the 5 stages in the Network Design Process Networking Process.</p>
+                  <img src="imgs/EnWin/5StagesOfNetworkDesignProcessChart.png" width="100%">
+                  <h2>Organizational Chart</h2>
+                  <p>This is the Organizational Chart Mapping out the Positions of the Employers and their "ranking" Sample.</p>
+                  <img src="imgs/EnWin/Organizational Chart.png" width="100%">
+                  <h2>Building Map Layout</h2>
+                  <p>This Represents the inside of the EnWin Utilities Building Map Layout Structure.</p>
+                  <img src="imgs/EnWin/BuildingMapLayout.png" width="100%">
+                  <h2>Diagnostics & Statistics</h2>
+                  <p>Network Diagnostics when analyzing the traffic of the network servers.</p>
+                  <img src="imgs/EnWin/Diagnostics.png" width="100%">
                 </div>
+              </div>
+              
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
                     <i class="fa fa-mobile"></i>
+                    <img src="imgs/ISSA/ISSA Logo transparent official 2.png" width="100%"/>
                     Re-Developed ISSA's Current Website
                 </h3>
                 <p>
                     Re-Developed their existing website to our revised and approved rough wireframe and deploy to live server                
                 </p>
-                <a href="#model2">Click for more info</a>
-                <div id="model2" class="modalDialog2">
-                    <div><a href="#close" title="Close" class="close">X</a>   
+                    <label class="btn link-1" for="modal-2">Click here for more Information</label>
+                    <input class="modal-state" id="modal-2" type="checkbox" />
+                    <div class="modal">
+                      <label class="modal__bg" for="modal-2"></label>
+                      <div class="modal__inner">
+                        <label class="modal__close" for="modal-2"></label>
                         <h2>Restructured their existing website and rearranged them on our rough Wireframe
-                        </h2>
                         <p>Old view of the Client's Home Page</p>
-                        <img src="imgs/ISSA/OldHomePage.png" width="100%">
-                        <p>Old view of the Client's Contact Us Page</p>
-                        <img src="imgs/ISSA/OldContactUsPage.png" width="100%">
-                        <!--this specific line here <180> will be for new site screenshots -->
-                        <h2>Languages used for this Project</h2>
-                        <div>
-                            <ul>
-                                <li>html <img src="imgs/ISSA/languages used/html.png" width="50%"></li>
-                                <li>css <img src="imgs/ISSA/languages used/css.png"></li>
-                                <li>js <img src="imgs/ISSA/languages used/js.png"></li>
-                                <li>php <img src="imgs/ISSA/languages used/php.png"></li>
-                            </ul>
-                        </div>
+                    </h2>
+                    <img src="imgs/ISSA/OldHomePage.png" width="100%">
+                    <p>Old view of the Client's Contact Us Page</p>
+                    <img src="imgs/ISSA/OldContactUsPage.png" width="100%">
+                    <!--this specific line here <180> will be for new site screenshots -->
+                    <h2>Languages used for this Project</h2>
+                    <div>
+                        <ul>
+                            <li>html <img src="imgs/ISSA/languages used/html.png" width="50%"></li>
+                            <li>css <img src="imgs/ISSA/languages used/css.png"></li>
+                            <li>js <img src="imgs/ISSA/languages used/js.png"></li>
+                            <li>php <img src="imgs/ISSA/languages used/php.png"></li>
+                        </ul>
+                    </div>
+                      </div>
+                    </div>
+                    <div id="modal2" class="modalDialog2">
+                    <div>
+                        
                     </div>
                 </div>
 
             </div>
-            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+            <!-- <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">
                     <i class="fa fa-th-large"></i>
                     Modular
@@ -208,7 +175,7 @@
                 <p>
                     Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
                 </p>
-            </div>
+            </div> -->
         </div>
     </div>
 
@@ -268,14 +235,15 @@
                 </p>
             </div>
         </div>
-
     </div>
 
     <div class="footer l-box is-center">
         Portfolio Project by Nguyen Le © 2021
     </div>
 
-</div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
 </body>
 </html>
