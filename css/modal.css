@@ -17,7 +17,7 @@ body {
     background: var(--background);
     box-shadow: .4rem .4rem 2.4rem .2rem var(--shadow-1);
     border-radius: 100rem;
-    padding: 1.4rem 3.2rem;
+    /* padding: 1.4rem 3.2rem; */
   
     transition: .2s;
   }
@@ -116,7 +116,7 @@ body {
     padding: 1em 2em;
     /* height: 50%; */
   }
-  
+
   .modal__inner::-webkit-scrollbar {
     display: none;
   }
