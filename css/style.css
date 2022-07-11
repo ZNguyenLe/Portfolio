@@ -20,7 +20,13 @@
     font-size: 2rem;
 }
 
+.card-body {
+    display: inline-grid;
 
+}
+.list-group {
+    list-style-type: none;
+}
 /*
  * -- BASE STYLES --
  * Most of these are inherited from Base, but I want to change a few.
@@ -77,7 +83,8 @@ h1,h2,h3,h4,h5,h6,label {
 }
 
 .pure-u-lg-3-5 {
-    padding-left: 150px;
+    width: 100% ;
+    padding-left: 30px;
 }
 /*
  * -- PURE BUTTON STYLES --
@@ -203,7 +210,7 @@ a.pure-button-primary {
     min-height: 12%;
     z-index: 2;
     background: #000;
-    border-top: 5px solid green;
+    /* border-top: 5px solid green; */
     border-bottom: 5px solid green;
 }
 
@@ -235,7 +242,7 @@ a.pure-button-primary {
 
 /* This is the class used for the dark-background areas. */
 .ribbon {
-    background: #2d3e50;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgb(32 118 36));
     color: #aaa;
 }
 
@@ -253,6 +260,7 @@ a.pure-button-primary {
     font-size: 2rem;
 }
 /* modal styles */
+
 /* [Object] Modal
  * =============================== */
 
