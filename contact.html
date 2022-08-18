@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/modal.css">
         <script src="js/modal.js"></script>
+        <script src="js/contact.js"></script>
     </head>
     <body>
         <div id="layout">
@@ -36,55 +37,37 @@
                     <ul class="pure-menu-list">
                         <li class="pure-menu-item"><a href="home.html" class="pure-menu-link">Home</a></li>
                         <li class="pure-menu-item"><a href="about.html" class="pure-menu-link">About</a></li>
-        
-                        <li class="pure-menu-item">
-                            <a href="projects.html" class="pure-menu-link">Projects</a>
-                        </li>
-        
-                        <li class="pure-menu-item menu-item-divided pure-menu-selected">
-                            <a href="contact.html" class="pure-menu-link">Contact (WIP)</a>
-                        </li>
+                        <li class="pure-menu-item"><a href="projects.html" class="pure-menu-link">Projects</a></li>
+                        <li class="pure-menu-item" href="externalFiles/NguyensResume.pdf" ><a class="pure-menu-link" target="_blank" href="externalFiles/NguyensResume.pdf" download="Nguyen's Resume">View Resume</a></li>
+                        <li class="pure-menu-item menu-item-divided pure-menu-selected"><a href="contact.html" class="pure-menu-link">Contact (WIP)</a></li>
                     </ul>
                 </div>
             </div>
             <div class="content">
-                <h2 class="content-head is-center">Dolore magna aliqua. Uis aute irure.</h2>
+                <h2 class="content-head is-center">Contact me (WIP)</h2>
         
                 <div class="pure-g">
-                    <div class="l-box-lrg pure-u-1 pure-u-md-2-5">
-                        <form class="pure-form pure-form-stacked">
-                            <fieldset>
-        
-                                <label for="name">Your Name</label>
-                                <input id="name" type="text" placeholder="Your Name">
-        
-        
-                                <label for="email">Your Email</label>
-                                <input id="email" type="email" placeholder="Your Email">
-        
-                                <label for="password">Your Password</label>
-                                <input id="password" type="password" placeholder="Your Password">
-        
-                                <button type="submit" class="pure-button">Sign Up</button>
-                            </fieldset>
-                        </form>
-                    </div>
-        
                     <div class="l-box-lrg pure-u-1 pure-u-md-3-5">
-                        <h4>Contact Us</h4>
+                        <h4>This is currently a Work In Progress (WIP)</h4>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                            consequat.
-                        </p>
-        
-                        <h4>More Information</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                            tempor incididunt ut labore et dolore magna aliqua.
+                            I'm currently working on other development stuff but please reach out to me by email
                         </p>
                     </div>
+                    
+                        <div>
+                            <button onclick="show()">Click for contact Information</button>
+                        </div>
+                        <div id="contactInfo" style="display: none">
+                            <p>
+                                Email: nguyen.le3794@gmail.com
+                            </p>
+                            <p>
+                                Phone: 519-992-7957
+                            </p>
+                            <p>
+                                (If I do not pick up please leave a voicemail, there has been a lot of scam calls and I'm trying my best to avoid scams)
+                            </p>
+                        </div>
                 </div>
             </div>
 
@@ -95,6 +78,5 @@
         
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-        
     </body>
 </html>
