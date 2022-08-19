@@ -6,6 +6,7 @@ body {
 .content-head {
     margin: -0.5em 0 1em;
 }
+
 .modal__inner2, .modal__inner3 {
     transition: top .25s ease;
     position: absolute;
@@ -23,6 +24,9 @@ body {
     /* height: 50%; */
   }
 
+  .modal__inner2 {
+    --m-shadow: 0 0 10rem 0
+  }
   .modal__inner2::-webkit-scrollbar, .modal__inner3::-webkit-scrollbar {
       display: none;
   }

@@ -27,18 +27,20 @@
 .list-group {
     list-style-type: none;
 }
-/*
- * -- BASE STYLES --
- * Most of these are inherited from Base, but I want to change a few.
- */
+
+/* -- BASE STYLES -- */
  
 body {
+    background-color: #000;
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
 }
 
-h1,h2,h3,h4,h5,h6,label {
+.logo {
+    width: 70%;
+}
+h1, h2, h3, h4, h5, h6, label {
     color: #34495e;
 }
 
@@ -49,7 +51,7 @@ h1,h2,h3,h4,h5,h6,label {
 
 /*
  * -- LAYOUT STYLES --
- * These are some useful classes which I will need
+ * box styles
  */
 .l-box {
     padding: 1em;
@@ -64,10 +66,8 @@ h1,h2,h3,h4,h5,h6,label {
     text-align: center;
 }
 
-/*
- * -- PURE FORM STYLES --
- * Style the form inputs and labels
- */
+/* Styles for the form inputs and labels */
+
 .pure-form label {
     margin: 1em 0 0;
     font-weight: bold;
@@ -86,10 +86,9 @@ h1,h2,h3,h4,h5,h6,label {
     width: 100% ;
     padding-left: 30px;
 }
-/*
- * -- PURE BUTTON STYLES --
- * I want my pure-button elements to look a little different
- */
+
+/* I want my pure-button elements to look a little different  */
+
 .pure-button {
     background-color: #1f8dd6;
     color: white;
@@ -105,16 +104,14 @@ a.pure-button-primary {
 }
 
 
-/*
- * -- MENU STYLES --
- * I want to customize how my .pure-menu looks at the top of the page
- */
+/* -- MENU STYLES -- .pure-menu looks at the top of the page */
 
 .home-menu {
     padding: 0.5em;
     text-align: center;
     box-shadow: 0 1px 1px rgba(0,0,0, 0.10);
 }
+
 .home-menu {
     background: #2d3e50;
 }
@@ -155,10 +152,8 @@ a.pure-button-primary {
 #contactInfo {
     display: none;
 }
-/*
- * -- SPLASH STYLES --
- * This is the blue top section that appears on the page.
- */
+
+/* -- SPLASH STYLES -- */
 
 .splash-container {
     background: #000;
@@ -204,7 +199,7 @@ a.pure-button-primary {
 
 /*
  * -- CONTENT STYLES --
- * This represents the content area (everything below the blue section)
+ * This represents the content area
  */
 .content-wrapper {
     /* These styles are required for the "scroll-over" effect */
@@ -265,10 +260,13 @@ a.pure-button-primary {
 }
 /* modal styles */
 
+#contactInfo {
+    display: none;
+}
 /* [Object] Modal
  * =============================== */
 
-  
+
   @media screen and (max-width: 768px) {
       
     .modal__inner {
@@ -334,7 +332,7 @@ a.pure-button-primary {
  */
 @media (min-width: 48em) {
 
-    /* We increase the body font size */
+    /* body font size */
     body {
         font-size: 16px;
     }
@@ -348,13 +346,12 @@ a.pure-button-primary {
             float: right;
         }
 
-    /* We increase the height of the splash-container */
+    /* height of the splash-container */
 /*    .splash-container {
         height: 500px;
     }*/
 
-    /* We decrease the width of the .splash, since we have more width
-    to work with */
+    /* decrease width of the .splash */
     .splash {
         width: 50%;
         height: 50%;
@@ -374,8 +371,7 @@ a.pure-button-primary {
 
 /*
  * -- DESKTOP (AND UP) MEDIA QUERIES --
- * On desktops and other large devices, we want to over-ride some
- * of the mobile and tablet styles.
+ * On desktops and other large devices, 
  */
 @media (min-width: 78em) {
     /* We increase the header font size even more */
