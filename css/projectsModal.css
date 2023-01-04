@@ -3,6 +3,12 @@ body {
     padding: 0;
 }
 
+#lang img {
+    width: 100px;
+    /* height: auto; */
+    float: left;
+}
+
 .content-head {
     margin: -0.5em 0 1em;
 }
@@ -32,10 +38,10 @@ body {
   }
 
   .split {
-    height: 100%;
+    height: 88%;
     position: fixed;
     z-index: 1;
-    top: 40px;
+    top: 35px;
     overflow-x: hidden;
 
 }
